@@ -23,3 +23,34 @@ nav img {
 #Hero-Section img {
     height: 100vh;
 }
+
+/* Quienes Somos Section */
+
+#QuienesSomos {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+}
+
+#QuienesSomos hr {
+    color: #00A5BB;
+    border: 1px solid;
+    width: 95%;
+}
+
+#QuienesSomos article div {
+    background-color: #00A5BB;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+#QuienesSomos article div:hover {
+    background-color: #14717e;
+}
+
+#QuienesSomos article div i {
+    color: #fff;
+}
+
+#QuienesSomos .color-tooltip {
+    background-color: #f0e5d8;
+}
