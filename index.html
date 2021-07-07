@@ -33,7 +33,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-5">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#Inicio"><b>Inicio</b></a>
+                    <a class="nav-link" href="#Hero-Section"><b>Inicio</b></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#QuienesSomos"><b>Quienes Somos</b></a>
@@ -76,13 +76,13 @@
     <!-- End Header -->
 
     <!-- Quienes Somos Section -->
-    <section id="QuienesSomos" class="container-fluid text-center text-white d-none d-sm-block">
+    <section id="QuienesSomos" class="container-fluid text-center text-white d-none d-sm-block pt-2">
         <h3 class="text-center mt-5"><b>¿Quiénes somos?</b></h3>
         <hr class="mt-4 mb-5">
         <div class="row mx-5 mb-5">
             <article class="col-12 col-sm-4">
-                <div class="py-1 mt-2" data-toggle="popover1" data-placement="top" title="¡Benji desde un avión!"
-                    data-content="Ten una nueva vista de todo Santiago">
+                <div class="py-1 mt-2" data-toggle="popover1" data-placement="top" title="Esto es un popover"
+                    data-content="Se muestra al dar click">
                     <i class="fas fa-plane fa-2x"></i>
                 </div>
                 <p class="popover1 text-left mt-2">
@@ -107,14 +107,14 @@
                     nisi corrupti necessitatibus. Deserunt architecto laudantium dolor necessitatibus corrupti delectus
                     quo sed eos ipsum et deleniti culpa quidem voluptas eum maxime.
                 </p>
-                <div class="py-1 mb-3" data-toggle="popover2" data-placement="right" title="¡Subamos la montaña!"
-                    data-content="El más expectacular trekking de todo Chile">
+                <div class="py-1 mb-3" data-toggle="popover2" data-placement="bottom" title="Esto es un popover"
+                data-content="Se muestra al dar click">
                     <i class="fas fa-mountain fa-2x"></i>
                 </div>
             </article>
             <article class="col-12 col-sm-4">
-                <div class="py-1 mt-2" data-toggle="popover3" data-placement="top" title="¡Viajemos en auto!"
-                    data-content="Atrévete a vivir esta experiencia extrema">
+                <div class="py-1 mt-2" data-toggle="popover3" data-placement="top" title="Esto es un popover"
+                data-content="Se muestra al dar click">
                     <i class="fas fa-route fa-2x"></i>
                 </div>
                 <p class="text-left mt-2">
@@ -229,7 +229,8 @@
     <footer id="Footer" class="text-center text-white py-1">
         <div class="row container-fluid m-auto">
             <div class="col-12 col-sm-6">
-                <h3 class="text-uppercase mt-2" data-toggle="tooltip" data-placement="right" title="Sigue nuestras redes sociales"><b>Viajes Chile</b></h3>
+                <h3 class="text-uppercase mt-2" data-toggle="tooltip" data-placement="top"
+                    title="Esto es un tooltip"><b>Viajes Chile</b></h3>
             </div>
             <div class="col-12 col-sm-6 mt-2">
                 <a href="https://github.com/Anthonyjcl18/Prueba_Viajes-Chile_Anthony-Campos" target="_blank">
@@ -249,6 +250,26 @@
     </footer>
     <!-- End Footer -->
 
+    <!-- Modal -->
+    <div class="modal fade text-center" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog text-center">
+            <div class="modal-content text-center">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title text-center" id="exampleModalLabel">Esto es un Modal</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body text-center">
+                    <h4 class="text-center"> Viajes Chile </h4>
+                    <img src="/assets/img/viajes.svg" width="40px" height="50px" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+    
+    
     <!-- jQuery 3.6.0 -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
