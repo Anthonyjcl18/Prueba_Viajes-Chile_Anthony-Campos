@@ -17,3 +17,9 @@ nav img {
 .navbar-brand, .nav-link {
     font-family: 'Raleway', sans-serif;
 }
+
+/* Hero Section*/
+
+#Hero-Section img {
+    height: 100vh;
+}
