@@ -34,7 +34,7 @@ nav img {
 #QuienesSomos hr {
     color: #00A5BB;
     border: 1px solid;
-    width: 95%;
+    width: 94%;
 }
 
 #QuienesSomos article div {
@@ -64,7 +64,7 @@ nav img {
 #Destacados hr {
     color: #00A5BB;
     border: 1px solid;
-    width: 95%;
+    width: 94%;
 }
 
 #Destacados img {
@@ -87,4 +87,16 @@ nav img {
         font-size: 14px;
     }
     
+}
+
+/* Contacto Section */
+
+#Contacto {
+    font-family: 'Raleway', sans-serif;
+}
+
+#Contacto hr {
+    color: #00A5BB;
+    border: 1px solid;
+    width: 94%
 }
