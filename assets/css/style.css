@@ -21,10 +21,10 @@ nav img {
 /* Hero Section*/
 
 #Hero-Section img {
-    height: 100vh;
+    height: 105vh;
 }
 
-/* Quienes Somos Section */
+/* Quienes Somos Section*/
 
 #QuienesSomos {
     font-family: 'Raleway', sans-serif;
@@ -53,4 +53,27 @@ nav img {
 
 #QuienesSomos .color-tooltip {
     background-color: #f0e5d8;
+}
+
+/* Destacados Section */
+
+#Destacados {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+}
+
+#Destacados hr {
+    color: #00A5BB;
+    border: 1px solid;
+    width: 95%;
+}
+
+#Destacados img {
+    max-height: 180px;
+}
+
+#Destacados .card-body {
+    background-color: #00A5BB;
+    color: #fff;
+    height: 300px;
 }
